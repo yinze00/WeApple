@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tranpage/tranpage",
+    "pages/ocrpage/ocrpage",
+    "pages/logs/logs",
+    "pages/animal/animal",
+    "pages/mine/mine",
+    "pages/cropper/cropper",
+    "pages/advanced/advanced",
+    "pages/car/car",
+    "pages/id/id",
+    "pages/plan/plan",
+    "pages/sweetapple/sweetapple"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "懒人智译",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 6000,
+    "uploadFile": 100000
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1BA0E1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/st.png",
+        "selectedIconPath": "images/st_hl.png",
+        "text": "识图"
+      },
+      {
+        "pagePath": "pages/tranpage/tranpage",
+        "iconPath": "images/yi.png",
+        "selectedIconPath": "images/yi_hl.png",
+        "text": "翻译"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
